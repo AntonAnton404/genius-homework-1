@@ -1,0 +1,169 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Serif";
+  font-weight: 400;
+  src: url("../fonts/roboto-serif-v13-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Serif";
+  font-weight: 600;
+  src: url("../fonts/roboto-serif-v13-latin-600.woff2") format("woff2");
+}
+
+:root {
+  --color-primary-blue-light: #2b7fff;
+  --color-primary-blue-dark: #011c44;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray: #4a4a4a;
+}
+
+/* Global */
+body {
+  color: var(--color-primary-blue-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  color: var(--color-white);
+  background-color: var(--color-primary-blue-light);
+  border-radius: 32px;
+  border: 2px solid var(--color-primary-blue-light);
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.button:hover {
+  color: var(--color-primary-blue-dark);
+  background-color: transparent;
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-blue-dark);
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.link:hover {
+  color: var(--color-primary-blue-light);
+}
+
+/* Main section */
+.hero-title {
+  color: var(--color-primary-blue-light);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 0.8;
+}
+
+.hero-title .accent {
+  color: var(--color-primary-blue-light);
+}
+
+.definition-title {
+  color: var(--color-primary-blue-dark);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.under-text {
+  color: var(--color-gray);
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Intro section*/
+.section-title {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.section-title .accent {
+  color: var(--color-primary-blue-light);
+}
+
+.intro-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.intro-text .accent {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+/* Advantages section */
+#advantages-section .section-title {
+  text-align: center;
+}
+
+#advantages-section .section-title .accent {
+  color: var(--color-primary-blue-light);
+}
+
+.advantages-text {
+  color: var(--color-black);
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+/* Procedures section */
+#procedures-section .section-title {
+  text-align: center;
+}
+
+.article-title {
+  color: var(--color-white);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Contact section */
+#contact-section .section-title {
+  text-align: center;
+}
