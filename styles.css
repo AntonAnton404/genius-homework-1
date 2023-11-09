@@ -1,29 +1,29 @@
 @font-face {
   font-display: swap;
-  font-family: "Poppins";
+  font-family: 'Play';
   font-weight: 400;
-  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
+  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Poppins";
+  font-family: 'Play';
   font-weight: 700;
-  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2");
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Roboto Serif";
+  font-family: 'Roboto Serif';
   font-weight: 400;
-  src: url("../fonts/roboto-serif-v13-latin-regular.woff2") format("woff2");
+  src: url('../fonts/roboto-serif-v13-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Roboto Serif";
+  font-family: 'Roboto Serif';
   font-weight: 600;
-  src: url("../fonts/roboto-serif-v13-latin-600.woff2") format("woff2");
+  src: url('../fonts/roboto-serif-v13-latin-600.woff2') format('woff2');
 }
 
 :root {
@@ -41,6 +41,10 @@ body {
 
 ul {
   list-style-type: none;
+}
+
+address {
+  font-style: normal;
 }
 
 /* Button */
@@ -78,7 +82,7 @@ ul {
 /* Main section */
 .hero-title {
   color: var(--color-primary-blue-light);
-  font-family: Poppins, sans-serif;
+  font-family: Play, sans-serif;
   font-weight: 700;
   font-size: 140px;
   line-height: 0.8;
@@ -107,7 +111,7 @@ ul {
 
 /* Intro section*/
 .section-title {
-  font-family: Poppins, sans-serif;
+  font-family: Play, sans-serif;
   font-weight: 700;
   font-size: 64px;
   line-height: 1.2;
